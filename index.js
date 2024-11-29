@@ -22,6 +22,9 @@ else {
     alert ("Yo no fui");
 };
 
+// ¿Qué hace el operador && y el operador ||?
+    // El operador && se utiliza para que, al emplear condiciones, la toma de decisiones dependa de una condición y de la otra. Es decir, ambas condiciones deben ser verdaderas. En cambio, el operador || se utiliza cuando necesitamos que una sea falsa y la otra verdadera, ya que es una condición *o* la otra.
+
 
 
 
