@@ -26,6 +26,22 @@ else {
     // El operador && se utiliza para que, al emplear condiciones, la toma de decisiones dependa de una condición y de la otra. Es decir, ambas condiciones deben ser verdaderas. En cambio, el operador || se utiliza cuando necesitamos que una sea falsa y la otra verdadera, ya que es una condición *o* la otra.
 
 
+// ACTIVIDAD 2: Presionar Y
+
+let yMinuscula = "y";
+let yMayuscula = "Y";
+
+let solicitarLetra = prompt ("Solicito una letra");
+
+if ((solicitarLetra == yMinuscula) || (solicitarLetra == yMayuscula)) {
+    alert ("Correcto")
+}
+
+else {
+    alert ("Error")
+};
+
+
 
 
 // let diaDeLaSemana = parseInt (prompt("Inserta un número del 1 al 7"));
