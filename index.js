@@ -1,3 +1,4 @@
+// CLASE 2: Control de flujos
 // ACTIVIDAD 1: Yo no fui - 29/11/2024
 
 let solicitarNombre = prompt ("solicito tu nombre");
@@ -40,6 +41,18 @@ if ((solicitarLetra == yMinuscula) || (solicitarLetra == yMayuscula)) {
 else {
     alert ("Error")
 };
+
+
+// Clase 3: Bucles
+
+// Preguntas:
+// 1.   ¿Qué es un ciclo y cómo funciona en programación?
+//          Un ciclo es, en Js, un medio rápido (la estructura del código) para hacer que algo se repita un número determinado de veces.
+
+// 2.	¿Cuáles son los dos tipos de ciclos y cuál es la diferencia entre ambos?
+//          Los dos tipos de ciclos son el ciclo por contado, en el cual utilizamos la estructura for, y el ciclo por condición, en el que utilizamos while y do while. La diferencia entre ambos es que, mientras que el ciclo por condición se determina por la validez de una condición, el ciclo por contado no depende de una condición para activarse.
+
+
 
 
 
