@@ -1,3 +1,14 @@
+// CLASE 3: Ciclos e interacciones
+
+// Actividad 1: El pizarrón
+
+let cantidad = parseInt (prompt ("Decime un número"));
+let texto = prompt ("Decime un texto");
+
+for (let z = 0; z <= cantidad; z++) {
+    alert (texto);
+}
+
 // CLASE 2: Control de flujos
 
 // Actividad 5: Vacío
