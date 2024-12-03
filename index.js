@@ -1,5 +1,23 @@
 // CLASE 2: Control de flujos
 
+// Actividad 4 con switch, resolucion 2
+
+let solicitarPresupuesto = parseInt (prompt ("Ingresa un presupuesto"));
+
+switch (true) {
+    case (solicitarPresupuesto <= 1000 && solicitarPresupuesto >= 0):
+        alert ("Presupuesto bajo");
+        break;
+    case (solicitarPresupuesto >= 1001 && solicitarPresupuesto < 3000):
+        alert ("Presupuesto medio");
+        break;
+    case (solicitarPresupuesto >= 3000):
+        alert ("Presupuesto alto");
+        break;
+    default:
+        alert ("Error al reconocer el presupuesto")
+}
+
 // Actividad 4: Solicitar al usuario 1 número
 
 let solicitarNumeroNoe = prompt ("Solicitar numero");
