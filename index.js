@@ -1,5 +1,22 @@
 // CLASE 2: Control de flujos
 
+// Actividad 5: Vacío
+
+let solicitarProducto1 = prompt ("¿Que producto te vas a llevar?");
+let solicitarProducto2 = prompt ("¿Que otro producto te vas a llevar?");
+let solicitarProducto3 = prompt ("¿Que otro producto te vas a llevar?");
+let solicitarProducto4 = prompt ("¿Que otro producto te vas a llevar?");
+
+if ((solicitarProducto1 != "") && (solicitarProducto2 != "") && (solicitarProducto2 != "") && (solicitarProducto4 != "")) {
+    console.log ("usted está llevando " +solicitarProducto1 +"," +solicitarProducto2+","+solicitarProducto3+" y una "+solicitarProducto4);
+}
+else {
+    console.log ("Es necesario cargar todos los productos")
+}
+
+
+
+
 // Actividad 4 con switch, resolucion 2
 
 let solicitarPresupuesto = parseInt (prompt ("Ingresa un presupuesto"));
