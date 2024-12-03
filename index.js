@@ -68,6 +68,29 @@ else {
     alert ("No elegiste ninguno");
 }
 
+// Actividad 3 con switch - resolución 2:
+
+let solicitarNumeroSwitch = prompt ("Solicitar un Numero del 1 al 4");
+
+switch (parseInt(solicitarNumeroSwitch)) {
+    case 1:
+        console.log ("Elegiste a Homero");
+        break;
+    case 2:
+        console.log ("Elegiste a Marge");
+        break;
+    case 3:
+        console.log ("Elegiste a Bart");
+        break;
+    case 4:
+        console.log ("Elegiste a Lisa");
+        break;
+    default:
+        console.log ("No elegiste ninguno de estos");
+}
+
+
+
 
 
 // Clase 3: Bucles
