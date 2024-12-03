@@ -44,6 +44,7 @@ else {
 
 
 // Clase 3: Bucles
+// HOJA 1
 
 // Preguntas:
 // 1.   ¿Qué es un ciclo y cómo funciona en programación?
@@ -80,6 +81,11 @@ else {
 
 // 6. ¿Cuál es la diferencia entre el while y el do…while?
 //          La diferencia entre el do while y el while radica en que, mientras que la condición del while debe ser verdadera para que se ejecute el programa, con el do...while podemos ejecutar el programa evaluando la condición al final. En caso de que no sea verdadera, no se ejecutará más, pero a diferencia del while, el do…while garantiza que se ejecutará al menos una vez.
+
+
+// HOJA 2
+// 1. ¿Como se compone la estructura de un bucle?
+//              Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla. 
 
 
 
