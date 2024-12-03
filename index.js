@@ -78,6 +78,9 @@ else {
 // 5.   ¿Qué hace la sentencia break y en qué se diferencia con la continue?
 //          Cuando deseemos interrumpir un ciclo, ya sea for, while o do while, utilizaremos el break. La sentencia break detiene el ciclo mediante una condición. Por otro lado, si queremos omitir una repetición en un ciclo, emplearemos continue. Al igual que break, se ejecutará mediante una condición.
 
+// 6. ¿Cuál es la diferencia entre el while y el do…while?
+//          La diferencia entre el do while y el while radica en que, mientras que la condición del while debe ser verdadera para que se ejecute el programa, con el do...while podemos ejecutar el programa evaluando la condición al final. En caso de que no sea verdadera, no se ejecutará más, pero a diferencia del while, el do…while garantiza que se ejecutará al menos una vez.
+
 
 
 
