@@ -75,6 +75,9 @@ else {
 // 4.   ¿Que es el prompt y que hace?
 //          Un prompt es una función de JavaScript que se utiliza para permitir que nuestra aplicación web muestre un mensaje en el navegador, el cual podremos completar y luego tendremos que cancelar o aceptar.
 
+// 5.   ¿Qué hace la sentencia break y en qué se diferencia con la continue?
+//          Cuando deseemos interrumpir un ciclo, ya sea for, while o do while, utilizaremos el break. La sentencia break detiene el ciclo mediante una condición. Por otro lado, si queremos omitir una repetición en un ciclo, emplearemos continue. Al igual que break, se ejecutará mediante una condición.
+
 
 
 
