@@ -1,4 +1,22 @@
 // CLASE 2: Control de flujos
+
+// Actividad 4: Solicitar al usuario 1 número
+
+let solicitarNumeroNoe = prompt ("Solicitar numero");
+
+if ((solicitarNumeroNoe <= 1000) && (solicitarNumeroNoe >= 0)) {
+    console.log ("Presupuesto bajo");
+}
+else if ((solicitarNumeroNoe >= 1001) && (solicitarNumeroNoe < 3000)) {
+    console.log ("Presupuesto medio");
+}
+else if (solicitarNumeroNoe >= 3000) {
+    console.log ("Presupuesto alto");
+}
+else {
+    console.log ("Error al reconocer el presupuesto")
+}
+
 // ACTIVIDAD 1: Yo no fui - 29/11/2024
 
 let solicitarNombre = prompt ("solicito tu nombre");
@@ -88,6 +106,7 @@ switch (parseInt(solicitarNumeroSwitch)) {
     default:
         console.log ("No elegiste ninguno de estos");
 }
+
 
 
 
