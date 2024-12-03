@@ -42,6 +42,33 @@ else {
     alert ("Error")
 };
 
+// ACTIVIDAD 3: Elegir personaje
+//Solicitar al usuario un (1) número.
+//Si el valor está entre 1 y 4, efectuar una de las siguientes salidas según corresponda: 
+// “Elegiste a Homero” si es 1.
+// “Elegiste a Marge” si es 2.
+// “Elegiste a Bart” si es 3.
+// “Elegiste a Lisa” si es 4.
+
+let solicitarNumero = parseInt (prompt ("Solicitar número"));
+
+if (solicitarNumero === 1) {
+    alert ("Elegiste a Homero");
+}
+else if (solicitarNumero == 2) {
+    alert ("Elegiste a Marge");
+}
+else if (solicitarNumero == 3) {
+    alert ("Elegiste a Bart");
+}
+else if (solicitarNumero == 4) {
+    alert ("Elegiste a Lisa");
+}
+else {
+    alert ("No elegiste ninguno");
+}
+
+
 
 // Clase 3: Bucles
 // HOJA 1
@@ -87,6 +114,16 @@ else {
 // 1. ¿Como se compone la estructura de un bucle?
 //              Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla. 
 
+for (let z = 0; z < 10; z++) {
+    console.log ("ciclo numerico" +z);
+}
+
+let x = 0;
+
+while (x < 10) {
+    console.log ("ciclo numerico" +x)
+    x++;
+}
 
 
 
