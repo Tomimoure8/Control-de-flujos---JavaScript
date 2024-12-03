@@ -52,6 +52,28 @@ else {
 // 2.	¿Cuáles son los dos tipos de ciclos y cuál es la diferencia entre ambos?
 //          Los dos tipos de ciclos son el ciclo por contado, en el cual utilizamos la estructura for, y el ciclo por condición, en el que utilizamos while y do while. La diferencia entre ambos es que, mientras que el ciclo por condición se determina por la validez de una condición, el ciclo por contado no depende de una condición para activarse.
 
+// 3.	¿ Qué es el ParseInt y que hace? 
+//          El ParseInt se utiliza para cambiar un valor string a number.
+let tango = "5";
+
+let tangoInt = parseInt (tango);
+
+console.log (tango);
+
+tango = parseInt (5);
+
+if (tango === 5) {
+    console.log ("Tango es un valor number");
+}
+else if (tangoInt === 5) {
+    console.log ("El valor original de tango no se cambió");
+}
+else {
+    console.log ("Algo mal estás haciendo");
+}
+
+// 4.   ¿Que es el prompt y que hace?
+//          Un prompt es una función de JavaScript que se utiliza para permitir que nuestra aplicación web muestre un mensaje en el navegador, el cual podremos completar y luego tendremos que cancelar o aceptar.
 
 
 
