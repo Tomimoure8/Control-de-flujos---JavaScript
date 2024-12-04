@@ -162,56 +162,40 @@ switch (parseInt(solicitarNumeroSwitch)) {
 // HOJA 1
 
 // Preguntas:
-// 1.   ¿Qué es un ciclo y cómo funciona en programación?
-//          Un ciclo es, en Js, un medio rápido (la estructura del código) para hacer que algo se repita un número determinado de veces.
 
-// 2.	¿Cuáles son los dos tipos de ciclos y cuál es la diferencia entre ambos?
-//          Los dos tipos de ciclos son el ciclo por contado, en el cual utilizamos la estructura for, y el ciclo por condición, en el que utilizamos while y do while. La diferencia entre ambos es que, mientras que el ciclo por condición se determina por la validez de una condición, el ciclo por contado no depende de una condición para activarse.
+// 1. ¿Qué es un ciclo y cómo funciona en programación?
+// Un ciclo es, en JavaScript, una estructura que permite repetir un bloque de código un número determinado de veces.
 
-// 3.	¿ Qué es el ParseInt y que hace? 
-//          El ParseInt se utiliza para cambiar un valor string a number.
-let tango = "5";
+// 2. ¿Cuáles son los dos tipos de ciclos y cuál es la diferencia entre ambos?
+// Los dos tipos de ciclos son:
+// - Ciclo por contado: Utiliza la estructura for. Se ejecuta un número específico de veces.
+// - Ciclo por condición: Utiliza while y do...while. Se ejecuta mientras una condición sea verdadera.
 
-let tangoInt = parseInt (tango);
+// 3. ¿Qué es el parseInt y qué hace?
+// parseInt se utiliza para convertir un valor de tipo string a number.
 
-console.log (tango);
+// 4. ¿Qué es el prompt y qué hace?
+// prompt es una función de JavaScript que muestra un mensaje en el navegador, permitiendo al usuario ingresar un valor que puede ser aceptado o cancelado.
 
-tango = parseInt (5);
+// 5. ¿Qué hace la sentencia break y en qué se diferencia con continue?
+// - break: Interrumpe un ciclo (for, while, do...while) cuando se cumple una condición.
+// - continue: Omite la iteración actual de un ciclo y continúa con la siguiente, cuando se cumple una condición.
 
-if (tango === 5) {
-    console.log ("Tango es un valor number");
-}
-else if (tangoInt === 5) {
-    console.log ("El valor original de tango no se cambió");
-}
-else {
-    console.log ("Algo mal estás haciendo");
-}
-
-// 4.   ¿Que es el prompt y que hace?
-//          Un prompt es una función de JavaScript que se utiliza para permitir que nuestra aplicación web muestre un mensaje en el navegador, el cual podremos completar y luego tendremos que cancelar o aceptar.
-
-// 5.   ¿Qué hace la sentencia break y en qué se diferencia con la continue?
-//          Cuando deseemos interrumpir un ciclo, ya sea for, while o do while, utilizaremos el break. La sentencia break detiene el ciclo mediante una condición. Por otro lado, si queremos omitir una repetición en un ciclo, emplearemos continue. Al igual que break, se ejecutará mediante una condición.
-
-// 6. ¿Cuál es la diferencia entre el while y el do…while?
-//          La diferencia entre el do while y el while radica en que, mientras que la condición del while debe ser verdadera para que se ejecute el programa, con el do...while podemos ejecutar el programa evaluando la condición al final. En caso de que no sea verdadera, no se ejecutará más, pero a diferencia del while, el do…while garantiza que se ejecutará al menos una vez.
+// 6. ¿Cuál es la diferencia entre while y do...while?
+// - while: La condición se evalúa antes de ejecutar el bloque de código. Si la condición es falsa desde el principio, el bloque no se ejecuta.
+// - do...while: La condición se evalúa después de ejecutar el bloque de código. El bloque se ejecuta al menos una vez, incluso si la condición es falsa.
 
 
-// HOJA 2
+
+
+// HOJA 3
+
+// Preguntas
+
 // 1. ¿Como se compone la estructura de un bucle?
-//              Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla. 
+// - Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla.
 
-for (let z = 0; z < 10; z++) {
-    console.log ("ciclo numerico" +z);
-}
 
-let x = 0;
-
-while (x < 10) {
-    console.log ("ciclo numerico" +x)
-    x++;
-}
 
 
 
