@@ -1,6 +1,6 @@
 // CLASE 3: Ciclos e interacciones
 
-// Actividad 1: El pizarrón
+// Actividad 1: El pizarrón // Solicitar al usuario un (1) número y un (1) texto. // Efectuar una salida por alerta con el mensaje ingresado por cada repetición, hasta alcanzar el valor señalado por el usuario.
 
 let cantidad = parseInt (prompt ("Decime un número"));
 let texto = prompt ("Decime un texto");
@@ -9,9 +9,12 @@ for (let z = 0; z <= cantidad; z++) {
     alert (texto);
 }
 
+
+
+
 // CLASE 2: Control de flujos
 
-// Actividad 5: Vacío
+// Actividad 5: Vacío // Solicitar al usuario cuatro (4) productos de almacén. // Si todos los elementos fueron cargados, realizar una única salida compuesta por el listado de productos. // Caso contrario, la salida será “Error: Es necesario cargar todos los productos”.
 
 let solicitarProducto1 = prompt ("¿Que producto te vas a llevar?");
 let solicitarProducto2 = prompt ("¿Que otro producto te vas a llevar?");
@@ -24,7 +27,6 @@ if ((solicitarProducto1 != "") && (solicitarProducto2 != "") && (solicitarProduc
 else {
     console.log ("Es necesario cargar todos los productos")
 }
-
 
 
 
@@ -46,7 +48,7 @@ switch (true) {
         alert ("Error al reconocer el presupuesto")
 }
 
-// Actividad 4: Solicitar al usuario 1 número
+// Actividad 4: Presupuesto // Solicitar al usuario un (1) número. // Si el valor está entre dos números, efectuar una de las siguientes salidas, según corresponda: // - “Presupuesto bajo” si está entre 0 y 1000. // - “Presupuesto medio” si está entre 1001 y 3000. // - “Presupuesto alto” si es mayor que 3000.
 
 let solicitarNumeroNoe = prompt ("Solicitar numero");
 
@@ -63,56 +65,9 @@ else {
     console.log ("Error al reconocer el presupuesto")
 }
 
-// ACTIVIDAD 1: Yo no fui - 29/11/2024
-
-let solicitarNombre = prompt ("solicito tu nombre");
-
-let nombreAlmacenado = "Bart";
-let nombreAlmacenadoDos = "Homero";
-let nombreAlmacenadoTres = "Marge";
-
-if (nombreAlmacenado == solicitarNombre) {
-    alert ("Fui yo");
-}
-
-else if (solicitarNombre == nombreAlmacenadoDos) {
-    alert ("Fui yo, Homero");
-}
-
-else if (solicitarNombre == nombreAlmacenadoTres) {
-    alert ("Fui yo, marge");
-}
-
-else {
-    alert ("Yo no fui");
-};
-
-// ¿Qué hace el operador && y el operador ||?
-    // El operador && se utiliza para que, al emplear condiciones, la toma de decisiones dependa de una condición y de la otra. Es decir, ambas condiciones deben ser verdaderas. En cambio, el operador || se utiliza cuando necesitamos que una sea falsa y la otra verdadera, ya que es una condición *o* la otra.
 
 
-// ACTIVIDAD 2: Presionar Y
-
-let yMinuscula = "y";
-let yMayuscula = "Y";
-
-let solicitarLetra = prompt ("Solicito una letra");
-
-if ((solicitarLetra == yMinuscula) || (solicitarLetra == yMayuscula)) {
-    alert ("Correcto")
-}
-
-else {
-    alert ("Error")
-};
-
-// ACTIVIDAD 3: Elegir personaje
-//Solicitar al usuario un (1) número.
-//Si el valor está entre 1 y 4, efectuar una de las siguientes salidas según corresponda: 
-// “Elegiste a Homero” si es 1.
-// “Elegiste a Marge” si es 2.
-// “Elegiste a Bart” si es 3.
-// “Elegiste a Lisa” si es 4.
+// Actividad 3: Elegir personaje // Solicitar al usuario un (1) número. // Si el valor está entre 1 y 4, efectuar una de las siguientes salidas según corresponda: // - “Elegiste a Homero” si es 1. // - “Elegiste a Marge” si es 2. // - “Elegiste a Bart” si es 3. // - “Elegiste a Lisa” si es 4.
 
 let solicitarNumero = parseInt (prompt ("Solicitar número"));
 
@@ -155,6 +110,49 @@ switch (parseInt(solicitarNumeroSwitch)) {
 
 
 
+// Actividad 2: Presionar Y // Solicitar al usuario una (1) tecla. // Si se presiona “y” (minúscula), o “Y” (mayúscula), realizar una salida por alerta con el mensaje “Correcto”. // Caso contrario, la salida será “Error”.
+
+let yMinuscula = "y";
+let yMayuscula = "Y";
+
+let solicitarLetra = prompt ("Solicito una letra");
+
+if ((solicitarLetra == yMinuscula) || (solicitarLetra == yMayuscula)) {
+    alert ("Correcto")
+}
+
+else {
+    alert ("Error")
+};
+
+
+
+// Actividad 1: Yo no fui - 29/11/2024 // Solicitar al usuario un (1) nombre. // Si el mismo es igual a otro nombre almacenado en una variable, realizar una salida por alerta con el mensaje “Fui yo”. // Caso contrario, la salida será “Yo no fui”.
+
+let solicitarNombre = prompt ("solicito tu nombre");
+
+let nombreAlmacenado = "Bart";
+let nombreAlmacenadoDos = "Homero";
+let nombreAlmacenadoTres = "Marge";
+
+if (nombreAlmacenado == solicitarNombre) {
+    alert ("Fui yo");
+}
+
+else if (solicitarNombre == nombreAlmacenadoDos) {
+    alert ("Fui yo, Homero");
+}
+
+else if (solicitarNombre == nombreAlmacenadoTres) {
+    alert ("Fui yo, marge");
+}
+
+else {
+    alert ("Yo no fui");
+};
+
+
+
 
 
 
@@ -187,7 +185,6 @@ switch (parseInt(solicitarNumeroSwitch)) {
 
 
 
-
 // HOJA 3
 
 // Preguntas
@@ -198,89 +195,10 @@ switch (parseInt(solicitarNumeroSwitch)) {
 
 
 
+// CLASE 2: Control de flujos
+// HOJA 2
 
+// Preguntas
 
-// let diaDeLaSemana = parseInt (prompt("Inserta un número del 1 al 7"));
-// switch (diaDeLaSemana) {
-//     case 1:
-//         console.log ("Lunes");
-//     case 2:
-//         console.log ("martes");
-//     case 3:
-//         console.log ("miercoles");
-//         break;
-//     case 4:
-//         console.log ("jueves");
-//         break;
-//     case 5:
-//         console.log ("viernes");
-//         break;
-//     case 6:
-//         console.log ("sabado");
-//         break;
-//     case 7:
-//         console.log ("domingo");
-//         break;
-//     default:
-//         console.log ("no clickeaste un número del 1 al 7");
-// }
-
-
-
-//
-// let Insercion = prompt("Decime algun mes del año");
-// switch (Insercion) {
-//     case "enero":
-//         console.log ("enebro");
-//         break;
-//     case "febrero":
-//         console.log ("fiebre");
-//         break;
-//     case "marzo":
-//         console.log ("mazo");
-//         break;
-//     case "abril":
-//         console.log ("abrir");
-//         break;
-//     case "mayo":
-//         console.log ("maya");
-//         break;
-//     case "junio":
-//         console.log ("junco");
-//         break;
-//     case "julio":
-//         console.log ("julio cesar");
-//         break;
-//     case "agosto":
-//         console.log ("augusto cesar");
-//         break;
-//     case "septiembre":
-//         console.log ("serpiente");
-//         break;
-//     case "octubre":
-//         console.log ("octopus");
-//         break;
-//     case "noviembre":
-//         console.log ("novia");
-//         break;
-//     case "diciembre":
-//         console.log ("diciendo");
-//         break;
-// }
-
-
-// CLASE 2 REPASO ****************************************************
-
-// let messi = 10;
-// if (messi < 10 || messi > 10) {
-//     console.log ("A messi la 10 no le queda"); 
-// }
-// else if (messi === 9 && messi != 10) {
-//     console.log ("messi juega de nueve, messi no es diez");
-// }
-// else if (messi === 10) {
-//     console.log ("Efectivamente, messi es el 10");
-// }
-// else {
-//     console.log ("x");
-// }
+// 1. ¿Qué hace el operador && y el operador ||?
+// - El operador && se utiliza para que, al emplear condiciones, la toma de decisiones dependa de una condición y de la otra. Es decir, ambas condiciones deben ser verdaderas. En cambio, el operador || se utiliza cuando necesitamos que una sea falsa y la otra verdadera, ya que es una condición *o* la otra.
