@@ -1,21 +1,26 @@
 // CLASE 3: Ciclos e interacciones
 
-// Actividad 3: Registro de alumnos // Solicitar al usuario la carga de diez (10) alumnos de forma consecutiva. // Luego realizar un única salida por alerta, con el listado de alumnos registrados.
+// Actividad 3: Registro de productos // Solicitar al usuario la carga de cinco (5) productos de forma consecutiva. // Luego realizar una única salida por alerta, con el listado de productos registrados.
 
-// let cargarAlumnos = prompt ("cargar alumno al sistema");
+let productos = "";
+
+for (let indice = 0; indice < 5; indice++) {
+    productos += prompt ("cargame productos") +"\n"
+}
+alert ("Los productos cargados son:"+"\n"+productos);
 
 
 
 // Actividad 2: El cuadrado ordinario // Solicitar al usuario un (1) número. // Emplear este valor para determinar la cantidad de repeticiones, y efectuar una salida por alerta con el mensaje “lado” en cada repetición. // Pero si se alcanza un número de iteraciones mayor que cuatro (4), cancelar el ciclo.
 
-let solicNumero = prompt ("Decime un número");
+// let solicNumero = prompt ("Decime un número");
 
-for (let limite = 0; limite < solicNumero; limite++) {
-    if (limite > 3) {
-        break;
-    }
-    alert ("lado");
-}
+// for (let limite = 0; limite < solicNumero; limite++) {
+//     if (limite > 3) {
+//         break;
+//     }
+//     alert ("lado");
+// }
 
 
 
