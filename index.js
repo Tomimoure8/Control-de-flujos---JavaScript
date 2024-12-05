@@ -252,10 +252,24 @@ else {
 
 // HOJA 3
 
-// Preguntas
+// Preguntas:
 
-// 1. ¿Como se compone la estructura de un bucle?
-// - Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla.
+// 1. ¿Si queremos utilizar un valor booleano true para crear un bucle infinito, que es lo que debemos hacer?
+// En el bucle While, por ejemplo, utilizamos el valor booleano true para crear un bucle infinito. Para finalizar el bucle infinito, debemos usar break.
+
+// 2. ¿Cómo se compone la estructura de un bucle?
+// Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla. 
+// for (let z = 0; z < 10; z++) { 
+//     console.log ("Ciclo numérico " + z);
+// }
+// // inicializador let z = 0; // condición z < 10; // incremento z++
+// Las instrucciones se ejecutan luego del condicional y antes del incremento 
+
+// 3. ¿Tanto en el while como en el for la estructura es igual?
+// Sí, tanto en el while como en el for, la estructura básica incluye un inicializador, una condición y un incrementador. La diferencia principal es cómo se expresan estas partes en cada tipo de bucle.
+
+// 4. ¿Cómo funciona la estructura en el do while?
+// La estructura do...while se ejecuta al menos una vez, ya que la condición se evalúa después de ejecutar el bloque de código. Si la condición es verdadera, el bucle continúa ejecutándose; si es falsa, el bucle se detiene.
 
 
 
