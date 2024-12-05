@@ -2,7 +2,7 @@
 
 ### Descripción
 
-Este proyecto es un repaso de las clases 2 y 3 de la materia JavaScript, parte de la diplomatura de Full Stack Web Developer en Coderhouse. Aquí encontrarás una serie de preguntas y respuestas, así como actividades prácticas que abarcan conceptos fundamentales de JavaScript, incluyendo control de flujos, condicionales, operadores, y bucles.
+Este proyecto es un repaso de las clases 2 y 3 de la materia JavaScript, parte de la diplomatura de Full Stack Web Developer en Coderhouse. Acá vas a encontrar una serie de preguntas y respuestas, así como actividades prácticas que abarcan conceptos fundamentales de JavaScript, incluyendo control de flujos, condicionales, operadores, y bucles.
 
 ### Contenido
 
