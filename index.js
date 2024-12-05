@@ -245,6 +245,15 @@ else {
 // 3. ¿Qué es la estructura if y que sucede si la condición es verdadera o falsa?
 // La estructura "if" es una de las más utilizadas en programación y se utiliza para evaluar una condición. Si la condición es verdadera, se ejecutan las instrucciones dentro del bloque "if". Si la condición es falsa, las instrucciones dentro del bloque "if" no se ejecutan y el programa continúa con las instrucciones siguientes.
 
+// 4. ¿Cuál es la diferencia entre el operador de asignación y el operador de comparación?
+// El operador de asignación "=" se utiliza para asignar un valor a una variable, mientras que el operador de comparación "==" se utiliza para comparar dos valores y verificar si son iguales, principalmente en estructuras condicionales como "if".
+
+// 5. ¿Qué es la estructura else y en qué se diferencia con if?
+// Como sabemos, si las instrucciones son verdaderas se ejecutan, en cambio, si las instrucciones son falsas se pasa a la siguiente instrucción, la else.
+
+// 6. ¿Qué es la estructura else if y en qué se diferencia con la else?
+// El else if (sino) se ejecuta siempre antes del else. Siempre que vayamos a utilizarlo es importante que vaya antes del else porque no es una condición, sino una forma de evaluar múltiples condiciones en secuencia en cambio el else es el caso por defecto que se ejecuta. Aunque, cabe destacar que un else if puede ser verdadero, y si es verdadero entonces el else no pasa a ejecutarse porque antes se ejecutó un else if.
+
 
 
 
