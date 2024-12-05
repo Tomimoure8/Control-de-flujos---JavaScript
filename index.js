@@ -256,10 +256,8 @@ else {
 
 
 
-
 // HOJA 2
 
 // Preguntas
 
-// 1. ¿Qué hace el operador && y el operador ||?
-// - El operador && se utiliza para que, al emplear condiciones, la toma de decisiones dependa de una condición y de la otra. Es decir, ambas condiciones deben ser verdaderas. En cambio, el operador || se utiliza cuando necesitamos que una sea falsa y la otra verdadera, ya que es una condición *o* la otra.
+// 1. ¿Qué hace el operador && y el operador ||? // El operador && (y) tiene como requisito que ambas condiciones sean verdaderas para que el bloque de código se ejecute. // const numero1 = 7; // const numero2 = 6; // if (numero1 > 5 && numero2 > 5) { // console.log("Ambos números son mayores que 5."); // } else { // console.log("Al menos uno de los números no es mayor que 5."); // } // El operador || (or) en cambio, tiene que tener un operador positivo y otro negativo para que el bloque de código se ejecute.
