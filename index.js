@@ -221,6 +221,35 @@ else {
 
 
 
+// HOJA 2
+
+// Preguntas:
+
+// 1. ¿Cómo llamamos a esto ''; y para que la usamos así?
+// En JavaScript, una cadena de texto vacía se representa como "" o ''. Es útil cuando necesitas declarar una variable que sabes que contendrá texto, pero aún no sabes cuál será ese texto.
+
+// 2. ¿Cómo llamamos a esto \n y para que la usamos?
+// Como lo dice el nombre, utilizamos el salto de línea para colocar una línea de código por debajo de otra. Por ejemplo: \n
+
+// 3. ¿Cómo llamamos a este operador += y para que lo utilizamos?
+// Con el operador de asignación y acumulación le estamos dando un valor a la variable que se irá sumando.
+
+// 4. ¿En qué se diferencia el switch del if?
+// El switch es como el if, con la diferencia (además de la sintaxis) de que se utiliza para comparar múltiples condiciones de una misma variable. En cambio, el if se puede utilizar para el uso de más de una variable.
+
+// 5. ¿Qué sucede si la condición del switch es verdadera?
+// Si la condición es verdadera, las instrucciones van a ejecutarse dentro del case. En la analogía de la heladería, si eliges un sabor de helado específico (como el chocolate), el empleado del switch sabe exactamente qué hacer: te da el helado de chocolate. No necesita seguir comprobando más condiciones después de eso. El proceso se detiene ahí.
+
+// 6. ¿Cuándo deja de ejecutarse el case?
+// En JavaScript, dentro de una estructura switch, cada case se ejecuta hasta que encuentra una declaración break, return, o hasta que se acaba el bloque de código.
+
+// 7. ¿Qué pasa si después de un case hay un return? Y si hay un return y un break? Y si hay un break pero no un return? Y si no hay ninguno de ambos?
+// Si después de un case hay un return, no es necesario un break, ya que return termina la ejecución de la función completa, no solo del switch. Esto significa que el return sale de la función y vuelve al punto desde donde se llamó.
+// Por otro lado, si no hay un return ni un break después de un case, entonces se ejecutarán los case siguientes uno tras otro hasta que encuentre un break o hasta que se acabe el bloque de código.
+// En una declaración switch, si ninguno de los case coincide con la expresión o variable evaluada, se ejecutará el bloque de código dentro de default, similar a cómo se ejecuta el bloque de código dentro de else en una declaración if cuando ninguna de las condiciones if o else if anteriores es verdadera.
+
+
+
 // HOJA 3
 
 // Preguntas
