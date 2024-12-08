@@ -301,6 +301,10 @@ alert ("Los productos cargados son:"+"\n"+productos);
 // 1. ¿Por qué en vez de colocar el prompt en la variable productos directamente, tenemos que saltar este paso y colocarlo dentro de la acción del bucle?
 // Si colocamos el prompt por fuera, lo que hacemos es utilizarlo una sola vez. Sin embargo, si necesitamos registrar productos, requerimos que el prompt nos pregunte 5 veces, y esto sucede si lo colocamos dentro del bucle.
 
+// 2. ¿Para qué sirve realmente el incremento, al menos en este caso?
+// El incremento, junto con la condición, determinará la cantidad de veces que el bucle se repetirá, y gracias a que hacemos que se repita 5 veces, el prompt (la acción dentro) se repite 5 veces.
+
+
 
 
 // CLASE 2: Control de flujos
