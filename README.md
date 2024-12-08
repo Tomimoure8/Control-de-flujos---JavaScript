@@ -40,6 +40,9 @@ Este proyecto es un repaso de las clases 2 y 3 de la materia JavaScript, parte d
     - ¿Cómo se compone la estructura de un bucle?
     - ¿Tanto en el while como en el for la estructura es igual?
     - ¿Cómo funciona la estructura en el do while?
+    - ¿Por qué en vez de colocar el prompt en la variable productos directamente, tenemos que saltar este paso y colocarlo dentro de la acción del bucle(actividad 3, Registro de productos)?
+    - ¿Para qué sirve realmente el incremento, al menos en este caso (actividad 3, Registro de productos)?
+    - ¿Cómo llamamos a este operador +=, para que lo utilizamos y porque no utilizamos el = en este ejercicio?
 
 ### Autor
 
