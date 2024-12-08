@@ -304,8 +304,8 @@ alert ("Los productos cargados son:"+"\n"+productos);
 // 2. ¿Para qué sirve realmente el incremento, al menos en este caso?
 // El incremento, junto con la condición, determinará la cantidad de veces que el bucle se repetirá, y gracias a que hacemos que se repita 5 veces, el prompt (la acción dentro) se repite 5 veces.
 
-
-
+// 3. ¿Cómo llamamos a este operador +=, para que lo utilizamos y porque no utilizamos el = en este ejercicio?
+// Este operador += suma (o concatena, en el caso de cadenas de texto) el nuevo valor al valor existente de la variable. En tu código, productos += prompt("cargame productos") + "\n" agrega cada nuevo producto ingresado a la lista de productos, separándolos con un salto de línea \n. Al final del bucle, productos contendrá todos los productos ingresados, uno debajo del otro. En cambio, Si usas productos = prompt("cargame productos"), cada vez que el bucle se ejecuta, el valor anterior de productos se sobrescribe con el nuevo valor ingresado por el usuario. Al final del bucle, productos solo contendría el último valor ingresado.
 
 // CLASE 2: Control de flujos
 // HOJA 1
