@@ -1,5 +1,17 @@
 // CLASE 3: Ciclos e interacciones
 
+// Actividad pag 3: Bucle infinito // Utiliza el valor booleano true para crear un bucle infinito (PENDIENTE).
+
+// let t = true;
+// let f = false;
+// let i = 0
+// let entrada = prompt("deci algo");
+
+// while ((t != f) && (i == 0)) {
+//     console.log (entrada);
+//     i++
+// }
+
 // Actividad 4: El innombrable // Solicitar al usuario la carga de nombres de forma consecutiva, hasta que se ingrese “Voldemort”. //Luego realizar un única salida por alerta, con todos los nombres ingresados.
 
 // let cargarNombre = "";
@@ -14,21 +26,21 @@
 
 // Actividad 3: Registro de productos // Solicitar al usuario la carga de cinco (5) productos de forma consecutiva. // Luego realizar una única salida por alerta, con el listado de productos registrados. // PostData: Este ejercicio me costó (volver a repetir la próx).
 
-// let productos = "";
+let productos = "";
 
-// for (let indice = 0; indice < 5; indice++) {
-//     productos += prompt ("cargame productos") +"\n"
-// }
-// alert ("Los productos cargados son:"+"\n"+productos);
+for (let indice = 0; indice < 5; indice++) {
+    productos += prompt ("cargame productos") +"\n"
+}
+alert ("Los productos cargados son:"+"\n"+productos);
 
 
 // Actividad 3 // Intento 2:
 
-let solicitarProducto = "";
-for (let i = 0; i < 5; i++) {
-    solicitarProducto += prompt ("solicitar producto") +"\n";
-}
-alert (solicitarProducto);
+// let solicitarProducto = "";
+// for (let i = 0; i < 5; i++) {
+//     solicitarProducto += prompt ("solicitar producto") +"\n";
+// }
+// alert (solicitarProducto);
 
 
 
@@ -280,6 +292,14 @@ alert (solicitarProducto);
 // 4. ¿Cómo funciona la estructura en el do while?
 // La estructura do...while se ejecuta al menos una vez, ya que la condición se evalúa después de ejecutar el bloque de código. Si la condición es verdadera, el bucle continúa ejecutándose; si es falsa, el bucle se detiene.
 
+
+
+// HOJA 5 (analizando la actividad 3 // Clase 3)
+
+// Preguntas:
+
+// 1. ¿Por qué en vez de colocar el prompt en la variable productos directamente, tenemos que saltar este paso y colocarlo dentro de la acción del bucle?
+// Si colocamos el prompt por fuera, lo que hacemos es utilizarlo una sola vez. Sin embargo, si necesitamos registrar productos, requerimos que el prompt nos pregunte 5 veces, y esto sucede si lo colocamos dentro del bucle.
 
 
 
