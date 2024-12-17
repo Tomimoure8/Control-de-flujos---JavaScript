@@ -2,15 +2,13 @@
 
 // Actividad pag 3: Bucle infinito // Utiliza el valor booleano true para crear un bucle infinito (PENDIENTE).
 
-// let t = true;
-// let f = false;
-// let i = 0
-// let entrada = prompt("deci algo");
+let contador = 0;
 
-// while ((t != f) && (i == 0)) {
-//     console.log (entrada);
-//     i++
-// }
+do {
+    console.log ("" + contador);
+    contador++
+}
+while (contador < 10);
 
 // Actividad 4: El innombrable // Solicitar al usuario la carga de nombres de forma consecutiva, hasta que se ingrese “Voldemort”. //Luego realizar un única salida por alerta, con todos los nombres ingresados.
 
@@ -26,12 +24,12 @@
 
 // Actividad 3: Registro de productos // Solicitar al usuario la carga de cinco (5) productos de forma consecutiva. // Luego realizar una única salida por alerta, con el listado de productos registrados. // PostData: Este ejercicio me costó (volver a repetir la próx).
 
-let productos = "";
+// let productos = "";
 
-for (let indice = 0; indice < 5; indice++) {
-    productos += prompt ("cargame productos") +"\n"
-}
-alert ("Los productos cargados son:"+"\n"+productos);
+// for (let indice = 0; indice < 5; indice++) {
+//     productos += prompt ("cargame productos") +"\n"
+// }
+// alert ("Los productos cargados son:"+"\n"+productos);
 
 
 // Actividad 3 // Intento 2:
@@ -275,8 +273,9 @@ alert ("Los productos cargados son:"+"\n"+productos);
 
 // Preguntas:
 
-// 1. ¿Si queremos utilizar un valor booleano true para crear un bucle infinito, que es lo que debemos hacer?
-// En el bucle While, por ejemplo, utilizamos el valor booleano true para crear un bucle infinito. Para finalizar el bucle infinito, debemos usar break.
+// 1. ¿Por qué en vez de colocar el prompt en la variable productos directamente, tenemos que saltar este paso y colocarlo dentro de la acción del bucle?
+// Si colocamos el prompt por fuera, lo que hacemos es utilizarlo una sola vez. Sin embargo, si necesitamos registrar productos, requerimos que el prompt nos pregunte 5 veces, y esto sucede si lo colocamos dentro del bucle.
+
 
 // 2. ¿Cómo se compone la estructura de un bucle?
 // Un bucle, ya sea while o for, se estructura de la siguiente manera: inicializador, condición e incrementador. Por ejemplo, en el inicializador podemos crear variables, y en el incrementador podemos asignar un nuevo valor a la variable o incluso incrementarla. 
@@ -306,6 +305,9 @@ alert ("Los productos cargados son:"+"\n"+productos);
 
 // 3. ¿Cómo llamamos a este operador +=, para que lo utilizamos y porque no utilizamos el = en este ejercicio?
 // Este operador += suma (o concatena, en el caso de cadenas de texto) el nuevo valor al valor existente de la variable. En tu código, productos += prompt("cargame productos") + "\n" agrega cada nuevo producto ingresado a la lista de productos, separándolos con un salto de línea \n. Al final del bucle, productos contendrá todos los productos ingresados, uno debajo del otro. En cambio, Si usas productos = prompt("cargame productos"), cada vez que el bucle se ejecuta, el valor anterior de productos se sobrescribe con el nuevo valor ingresado por el usuario. Al final del bucle, productos solo contendría el último valor ingresado.
+
+
+
 
 // CLASE 2: Control de flujos
 // HOJA 1
