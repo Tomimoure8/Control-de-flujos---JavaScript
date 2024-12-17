@@ -203,6 +203,25 @@
 
 // CLASE 3: Ciclos e interacciones
 
+//HOJA 6
+
+// Preguntas:
+
+//1.	¿Cómo se compone la estructura de un bucle? 100
+
+//2.	¿Cómo se compone la estructura de un bucle for? 100
+
+
+
+// HOJA 5
+
+// Preguntas:
+
+//1.	¿Cómo se compone la estructura de un bucle? 100
+
+//2.	¿Cómo se compone la estructura de un bucle for? 100
+
+
 
 // HOJA 4
 
