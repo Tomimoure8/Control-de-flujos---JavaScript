@@ -2,14 +2,6 @@
 
 // Actividad pag 3: Bucle infinito // Utiliza el valor booleano true para crear un bucle infinito (PENDIENTE).
 
-let contador = 0;
-
-do {
-    console.log ("" + contador);
-    contador++
-}
-while (contador < 10);
-
 // Actividad 4: El innombrable // Solicitar al usuario la carga de nombres de forma consecutiva, hasta que se ingrese “Voldemort”. //Luego realizar un única salida por alerta, con todos los nombres ingresados.
 
 // let cargarNombre = "";
@@ -338,4 +330,30 @@ while (contador < 10);
 
 // Preguntas
 
-// 1. ¿Qué hace el operador && y el operador ||? // El operador && (y) tiene como requisito que ambas condiciones sean verdaderas para que el bloque de código se ejecute. // const numero1 = 7; // const numero2 = 6; // if (numero1 > 5 && numero2 > 5) { // console.log("Ambos números son mayores que 5."); // } else { // console.log("Al menos uno de los números no es mayor que 5."); // } // El operador || (or) en cambio, tiene que tener un operador positivo y otro negativo para que el bloque de código se ejecute.
+// 1. ¿Por qué el bucle do...while garantiza que el bloque de código se ejecute al menos una vez?
+
+// 2. ¿Qué papel juega la condición en un bucle do...while y cuándo se evalúa?
+
+//3. ¿Qué sucede con el valor del contador en cada iteración del bucle do...while?
+
+//4. ¿Cómo se estructura un bucle do...while en JavaScript?
+
+//5. ¿Qué podría ocurrir si no se incrementa el valor del contador dentro del bucle do...while?
+
+//6. ¿Cómo se puede detener un bucle do...while antes de que la condición se vuelva falsa?
+
+//7. ¿Qué acción realiza el siguiente código en cada iteración del bucle do...while?
+
+
+
+// HOJA 1
+
+// Preguntas
+
+// 1. ¿Qué es un ciclo y cómo funciona en programación?
+
+// 2. ¿Cuáles son los dos tipos de ciclos y cuál es la diferencia entre ambos? 
+
+// 3. ¿Cuál es la diferencia entre el while y el do…while?
+
+
