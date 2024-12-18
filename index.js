@@ -202,6 +202,20 @@
 
 
 // CLASE 3: Ciclos e interacciones
+// HOJA 7
+
+// Preguntas:
+
+//1. ¿En qué se diferencia el switch del if? Respuesta completa y ejemplo 100
+
+//2. ¿Qué sucede si la condición del switch es verdadera? 100
+
+//3. ¿Cuándo deja de ejecutarse el case? 100
+
+//4.	¿Qué pasa si después de un case hay un return? 100
+// •	¿Y si hay un return y un break? 100
+// • ¿Y si hay un break pero no un return? Y si no hay ninguno de ambos? 100
+
 
 //HOJA 6
 
