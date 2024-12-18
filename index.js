@@ -202,6 +202,20 @@
 
 
 // CLASE 3: Ciclos e interacciones
+
+// HOJA 8
+
+// Preguntas:
+
+//1.	¿Qué es el ParseInt y que hace? 100
+
+//2.	¿Qué es el Prompt y que hace? 100
+
+//3.	¿Qué hace la sentencia break y en qué se diferencia con la continue? 100
+
+
+
+
 // HOJA 7
 
 // Preguntas:
